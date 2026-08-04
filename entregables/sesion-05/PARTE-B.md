@@ -28,3 +28,9 @@
 1. README.md - Explica correctamente como levantar el proyecto, da un onboarding rápido de qué es lo que tiene el proyecto y
 2. OpenSpec - El flujo para aplicar un change se aplica sin problemas (al menos el de Claude, que fue el que pude probar)
 3. CLAUDE.md - Cumple con informar la arquitectura, non-goals, convenciones dando un contexto claro
+
+
+## Exploración rápida de tres formatos de documentación
+* **Diagrama C4**: Existen 4 tipos de diagrama que comunican la arquitectura del sistema de forma clara. Lo que agiliza el entendimiento del proyecto mucho más rápido que la lectura de código o documentación técnico-funcional.
+* **ADR**: A partir de un issue o necesidad, se registran las decisiones técnicas tomadas según el contexto en el que se encontraba en ese momento, se dan los argumentos como implicaciones, qué opciones se consideraron y por qué.
+* **Especificación OpenAPI**: Permite probar endpoints directamente desde el navegador con parámetros reales y respuestas de ejemplo. Tiene un estándar para describir y definir APIs REST de forma estructurada e independiente del lenguaje. Permite ver la estructura de los endpoints de la API sin necesidad de acceder al código fuente.
